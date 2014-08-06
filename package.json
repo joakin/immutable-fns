@@ -1,0 +1,27 @@
+{
+  "name": "immutable-fns",
+  "version": "0.0.0",
+  "description": "Immutable js functions for immutable js data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/joakin/immutable-fns"
+  },
+  "keywords": [
+    "immutable",
+    "fp",
+    "functional"
+  ],
+  "author": "Joaquin Oltra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakin/immutable-fns/issues"
+  },
+  "homepage": "https://github.com/joakin/immutable-fns",
+  "peerDependencies": {
+    "immutable": "^2.0.4"
+  }
+}

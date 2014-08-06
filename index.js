@@ -24,8 +24,6 @@ function unbind(method) {
 }
 
 types.forEach(function(typeStr) {
-  console.log(typeStr);
-  console.log('=====');
   var Type = Immutable[typeStr];
   var proto = Type.prototype;
 
@@ -33,7 +31,6 @@ types.forEach(function(typeStr) {
   for (var prop in proto) {
     var method = proto[prop];
     if (typeof method === 'function') {
-      console.log(typeStr, prop, method.length);
       exports[typeStr][prop] = unbind(method);
     }
   }

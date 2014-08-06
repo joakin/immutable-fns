@@ -26,9 +26,9 @@ For example:
 
 ```javascript
 // On the immutable-js api
-// Immutable.Map({}).get('key')
+Immutable.Map({}).get('key')
 // Added on this library
-// Immutable.Map.get('key', map)
+Immutable.Map.get('key', map)
 ```
 
 Examples

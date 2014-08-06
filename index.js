@@ -39,13 +39,3 @@ types.forEach(function(typeStr) {
   }
 });
 
-/*
-
-var I = require('./index.js')
-
-var m = I.Map({a: 1})
-
-I.Map.find('a', m)
-
-*/
-

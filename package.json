@@ -23,5 +23,8 @@
   "homepage": "https://github.com/joakin/immutable-fns",
   "peerDependencies": {
     "immutable": "^2.0.4"
+  },
+  "devDependencies": {
+    "tape": "^2.14.0"
   }
 }

@@ -10,8 +10,11 @@ in **immutable** but accepting the object to act on as the last argument.
 Usage
 -----
 
+This package has immutable as its peer dependency, so you have to install it
+too.
+
 ```
-npm install immutable-fns
+npm install --save immutable immutable-fns
 ```
 
 Docs

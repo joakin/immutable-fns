@@ -1,6 +1,6 @@
 {
   "name": "immutable-fns",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Immutable js functions for immutable js data structures",
   "main": "index.js",
   "scripts": {

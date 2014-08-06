@@ -7,6 +7,13 @@ This library provides a wrapper around the package
 adding static functions to the data types that are exactly the same as the ones
 in **immutable** but accepting the object to act on as the last argument.
 
+Usage
+-----
+
+```
+npm install immutable-fns
+```
+
 Docs
 ----
 
